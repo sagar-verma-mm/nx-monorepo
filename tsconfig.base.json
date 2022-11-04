@@ -17,6 +17,7 @@
     "paths": {
       "@happynrwl/feature-a": ["libs/feature-a/src/index.ts"],
       "@happynrwl/feature-b": ["libs/feature-b/src/index.ts"],
+      "@happynrwl/feature-d": ["libs/feature-d/src/index.ts"],
       "@happynrwl/featurec-c": ["libs/featurec-c/src/index.ts"]
     }
   },
