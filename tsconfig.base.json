@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@happynrwl/feature-a": ["libs/feature-a/src/index.ts"],
+      "@happynrwl/feature-b": ["libs/feature-b/src/index.ts"],
+      "@happynrwl/featurec-c": ["libs/featurec-c/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
