@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import { FeatureA } from '@happynrwl/feature-a';
 import { FeatureB } from '@happynrwl/feature-b';
+import { FeatureD } from '@happynrwl/feature-d';
 
 export const App = () => {
   const scrollViewRef = useRef<null | ScrollView>(null);
@@ -32,6 +33,7 @@ export const App = () => {
             </Text>
             <FeatureA />
             <FeatureB />
+            <FeatureD />
           </View>
         </ScrollView>
       </SafeAreaView>
